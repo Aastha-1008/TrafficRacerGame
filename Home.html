@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./Home.css" rel="stylesheet"/>
+    <link href="./CarStyling.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="game_container">
+        <div class="game_container_header">
+            <div class="gamename_heading">
+                <h2>Traffic Racer Game</h2>
+                <img src = './car.jpg' alt="car" id="car-image" />
+            </div>
+            <div class="gamescore_section">
+                <h2>Score : <span id = "score">0</span></h2>
+            </div>
+        </div>
+
+        <div class="game_container_body">
+
+            <img src="./tree.png" alt="tree"/>
+            <div class="traffic_game_road">
+                <div class="lane" id="lane1"></div>
+                <div class="lane" id="lane2"></div>
+                <div class="lane" id="lane3"></div>
+
+                <div id="car" class="car">
+                    <div class="f_glass"></div>
+                    <div class="b_glass"></div>
+                    <div class="f_light_l"></div>
+                    <div class="f_light_r"></div>
+                    <div class="f_tyre_l"></div>
+                    <div class="f_tyre_r"></div>
+                    <div class="b_tyre_l"></div>
+                    <div class="b_tyre_r"></div>
+                </div>
+                <div id="opp_car_1" class="car">
+                    <div class="f_glass"></div>
+                    <div class="b_glass"></div>
+                    <div class="f_light_l"></div>
+                    <div class="f_light_r"></div>
+                    <div class="f_tyre_l"></div>
+                    <div class="f_tyre_r"></div>
+                    <div class="b_tyre_l"></div>
+                    <div class="b_tyre_r"></div>
+                </div>
+                <div id="opp_car_2" class="car">
+                    <div class="f_glass"></div>
+                    <div class="b_glass"></div>
+                    <div class="f_light_l"></div>
+                    <div class="f_light_r"></div>
+                    <div class="f_tyre_l"></div>
+                    <div class="f_tyre_r"></div>
+                    <div class="b_tyre_l"></div>
+                    <div class="b_tyre_r"></div>
+                </div>
+                <div id="opp_car_3" class="car">
+                    <div class="f_glass"></div>
+                    <div class="b_glass"></div>
+                    <div class="f_light_l"></div>
+                    <div class="f_light_r"></div>
+                    <div class="f_tyre_l"></div>
+                    <div class="f_tyre_r"></div>
+                    <div class="b_tyre_l"></div>
+                    <div class="b_tyre_r"></div>
+                </div>
+
+                <div id="restart_game">
+                    <button id="restart">Restart<br>
+                        <small class="small_text">(press Enter)</small>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="./Home.js"></script>
+    
+</body>
+</html>

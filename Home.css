@@ -1,0 +1,75 @@
+body{
+    height:100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: linear-gradient(rgb(166, 192, 233),rgb(55, 110, 150));
+}
+
+.game_container_header{
+    display: flex;
+    flex-wrap: column wrap;
+    justify-content: space-around;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.gamename_heading{
+    background-color: white;
+    color: black;
+    margin: 5px 0px;
+    box-shadow: 5px 5px 3px 1px rgb(161, 159, 159);
+    display: flex;
+    flex-wrap: column;
+}
+.gamename_heading h2{
+    padding: 10px 40px;
+    z-index: 1;
+}
+.gamename_heading img{
+    position: absolute;
+    width: 80px;
+    height: 5%;
+    left: 33%;
+}
+.gamescore_section{
+    background-color: white;
+    color: #454545;
+    padding: 3px;
+    margin-top: 10px;
+    box-shadow: 0px 1px 8px 0px black;
+
+}
+
+.game_container_body img{
+    position: absolute;
+    top: 30%;
+    width: 410px;
+}
+
+.traffic_game_road{
+    position: relative;
+    background-color: black;
+    height: 80vh;
+    width: 25%;
+    left: 35%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.lane{
+    position: absolute;
+    height:150px;
+    width:4%;
+    margin-left: 48%;
+    background-color: rgba(255,255,255,0.5);
+}
+#lane1{
+    top: -150px;
+}
+#lane2{
+    top: 150px;
+
+}
+#lane3{
+    top: 450px;
+} 
